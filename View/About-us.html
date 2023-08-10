@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <style>
+        /* external css: flickity.css */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        .carousel {
+            background: #FAFAFA;
+        }
+
+        .carousel-cell {
+            width: 35%;
+            height: 300px;
+            margin-right: 10px;
+            background: #8C8;
+            border-radius: 5px;
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flickity - bgLazyLoad adjacent</h1>
+
+    <!-- Flickity HTML init -->
+    <div class="carousel" data-flickity='{ "bgLazyLoad": 1 }'>
+      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/640/?random"></div>
+      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random"></div>
+      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/642/?random"></div>
+      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/643/?random"></div>
+      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/644/?random"></div>
+      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/645/?random"></div>
+      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/646/?random"></div>
+    </div>
+</body>
+
+</html>

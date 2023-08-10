@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#6d28d9" />
+    <link rel="shortcut icon" href="./Image/icon-heart.svg" />
+    <title>Cosmetic ROSE</title>
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="./Content/index.css">
+    <link rel="stylesheet" href="./Content/Similarity-style.css">
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./Script/Similarity-style.js" defer></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./Script/a.js" defer></script>
+</head>
+
+<body>
+    <div class="container-fluid p-0 m-0">
+        <header>
+            <div class="row p-0 m-0">
+                <div class="col p-0 m-0">
+                    <menu class="menu">
+                        <nav class="nav-menu">
+                            <ul class="ul-menu">
+                                <li class="item-menu">
+                                    <button type="button" class="btn-menu">
+                                        <a href="#" class="link-menu"> خانه </a>
+                                    </button>
+                                </li>
+                                <li class="item-menu">
+                                    <button type="button" class="btn-menu">
+                                        <a href="#" class="link-menu"> محصولات </a>
+                                    </button>
+                                </li>
+                                <li class="item-menu">
+                                    <button type="button" class="btn-menu">
+                                        <a href="#" class="link-menu"> درباره ما </a>
+                                    </button>
+                                </li>
+                                <li class="item-menu">
+                                    <button type="button" class="btn-menu">
+                                        <a href="#" class="link-menu"> ارتباط با ما </a>
+                                    </button>
+                                </li>
+                            </ul>
+                            <ul class="ul-form">
+                                <li class="item-form">
+                                    <a href="./View/Login.html">
+                                        <button class="Btn">
+                                            <div class="sign"><svg viewBox="0 0 512 512">
+                                                    <path
+                                                        d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z">
+                                                    </path>
+                                                </svg></div>
+                                            <div class="text"> ورود </div>
+                                        </button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="nav-sub-menu">
+                            <button class="hamburger hamburger--emphatic" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                            <button class="btn-brand" dir="ltr">
+                                ROSE
+                            </button>
+                            <button title="Home"
+                                class="group cursor-pointer hover:rotate-90 active:scale-100 duration-200 btn-icon">
+                                <i class="bi bi-house"></i>
+                            </button>
+                            <menu class="sub-menu">
+                                <ul class="ul-sub-menu">
+                                    <li class="item-sub-menu">
+                                        <a href="#" class="link-sub-menu"> <i class="bi bi-house"></i> &nbsp; خانه </a>
+                                    </li>
+                                    <li class="item-sub-menu">
+                                        <a href="#" class="link-sub-menu"> <i class="bi bi-shop"></i> &nbsp; محصولات
+                                        </a>
+                                    </li>
+                                    <li class="item-sub-menu">
+                                        <a href="#" class="link-sub-menu"> <i class="bi bi-exclamation-lg"></i> &nbsp;
+                                            درباره ما </a>
+                                    </li>
+                                    <li class="item-sub-menu">
+                                        <a href="#" class="link-sub-menu"> <i class="bi bi-telephone"></i> &nbsp; ارتباط
+                                            با ما </a>
+                                    </li>
+                                    <li class="item-sub-menu">
+                                        <hr class="hr-item-sub-menu">
+                                    </li>
+                                    <li class="item-sub-menu">
+                                        <a href="#" class=" link-sub-menu-Log-in"> <i
+                                                class="bi bi-box-arrow-in-right"></i> &nbsp; ورود </a>
+                                    </li>
+                                </ul>
+                                <div class="slider"></div>
+                            </menu>
+                        </nav>
+                    </menu>
+                    <div class="row p-0 m-0">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="container-header">
+                                <div class="parent-header">
+                                    <div class="text-brand font-en"> ROSE </div>
+                                    <div class="text-description">
+                                        مجموعه فروشگاه های رز با بیش از 25 سال سابقه در ارائه محصولات با کيفيت ، مرغوب و با اصالت از برندهای معتبر جهانی مشغول به فعاليت است. هم اکنون فروشگاه اینترنتی رز در ادامه اين رسالت و سابقه درخشان، به دنبال ارائه محصولات با کيفيت و اورجينال از برندهای معتبر خارجی و ايرانی در محيط آنلاين است.
+                                    </div>
+                                    <div class="parent-btn-header">
+                                        <button type="button" class="btn-header">
+                                            <i class="bi bi-percent bi-btn-header-offers"></i> پیشنهادات
+                                        </button>
+                                        <button type="button" class="btn-header">
+                                            <i class="bi bi-shop"></i> محصولات
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="row p-0 m-0">
+                <div class="col p-0 m-0">
+                    <div class="container-offers">
+                        <div class="parent-offers">
+                            <button type="button" class="btn-offers"> <i class="bi bi-percent bi-btn-header-offers"></i> پیشنهادات  </button>
+                            <div class="carousel" data-flickity='{ "bgLazyLoad": 1 }'>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="card carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/480/641/?random">
+                                        <div class="card-img"><img src="./Image/wallpaper.jpg" alt=""></div>
+                                        <div class="card-info">
+                                          <p class="text-title">Product title</p>
+                                          <p class="text-body">Product description and details</p>
+                                        </div>
+                                        <div class="card-footer">
+                                        <span class="text-title">$499.49</span>
+                                        <div class="card-button">
+                                          <svg class="svg-icon" viewBox="0 0 20 20">
+                                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-0 mt-5">
+                <div class="col p-0 m-0">
+                    <div class="container-card">
+                        <div class="parent-card">
+                            <div class="card-page">
+                                <a href="./View/Products.html" class="link-page-card">
+                                    <div class="item item--1">
+                                        <span class="icon-card-page">
+                                            <i class="bi bi-shop"></i>
+                                        </span>
+                                        <span class="quantity"> محصولات </span>
+                                      <span class="text text--1"> Product </span>
+                                    </div>
+                                </a>
+                                <a href="./View/Contact-us.html" class="link-page-card">
+                                    <div class="item item--2">
+                                        <span class="icon-card-page">
+                                            <i class="bi bi-telephone"></i>
+                                        </span>
+                                        <span class="quantity"> ارتباط با ما </span>
+                                      <span class="text text--2"> Contact-us</span>
+                                    </div>
+                                </a>
+                                <a href="./View/About-us.html" class="link-page-card">
+                                    <div class="item item--3">
+                                        <span class="icon-card-page">
+                                            <i class="bi bi-exclamation-lg"></i>
+                                        </span>
+                                        <span class="quantity"> درباره ما </span>
+                                      <span class="text text--3"> About-us </span>
+                                    </div>
+                                </a>
+                                <a href="#" class="link-page-card">
+                                    <div class="item item--4">
+                                        <span class="icon-card-page">
+                                            <i class="bi bi-chat-dots"></i>
+                                        </span>
+                                        <span class="quantity"> نظرات </span>
+                                      <span class="text text--4"> comment </span>
+                                    </div>
+                                  </div>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br></br>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
